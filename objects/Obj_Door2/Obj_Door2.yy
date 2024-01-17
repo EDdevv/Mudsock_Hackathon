@@ -1,9 +1,8 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "Obj_Door",
+  "name": "Obj_Door2",
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
   ],
   "managed": true,
@@ -29,8 +28,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "Spr_Door",
-    "path": "sprites/Spr_Door/Spr_Door.yy",
+    "name": "Spr_Door2",
+    "path": "sprites/Spr_Door2/Spr_Door2.yy",
   },
   "spriteMaskId": null,
   "visible": false,

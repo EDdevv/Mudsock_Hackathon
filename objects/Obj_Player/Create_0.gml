@@ -1,2 +1,2 @@
-global.movespd = 3.5;
-global.movespdspr = 5.5;
+global.movespd = 6.5;
+global.movespdspr = 10.5;
