@@ -11,4 +11,6 @@ if timer < 0{
 if (HP <= 0){
 	instance_destroy();
 	global.killcount ++;
+	if (room == Room2){global.r2dead2 = true;}
+	if (room == Room3){global.r3dead2 = true;}
 }

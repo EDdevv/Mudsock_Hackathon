@@ -11,4 +11,5 @@ if timer < 0{
 if (HP <= 0){
 	instance_destroy();
 	global.killcount ++;
+	global.r3dead3 = true;
 }

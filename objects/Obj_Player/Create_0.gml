@@ -8,3 +8,10 @@ global.room2Clear = false;
 global.room3Clear = false;
 
 global.killcount = 0;
+
+global.r1dead1 = false;
+global.r2dead1 = false;
+global.r3dead1 = false;
+global.r2dead2 = false;
+global.r3dead2 = false;
+global.r3dead3 = false;
