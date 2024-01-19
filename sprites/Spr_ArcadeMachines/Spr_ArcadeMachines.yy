@@ -2,9 +2,9 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "Spr_ArcadeMachines",
-  "bbox_bottom": 639,
+  "bbox_bottom": 319,
   "bbox_left": 0,
-  "bbox_right": 639,
+  "bbox_right": 319,
   "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"2cd3118e-fa3b-46ae-92cf-52376b5b0418",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"9d524a22-1680-44db-a4c5-48622f94859e",},
   ],
   "gridX": 8,
   "gridY": 8,
-  "height": 640,
+  "height": 320,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"c423f71b-819e-46bb-897e-1e7aee48a309","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"a7074191-2689-4a5c-aecd-351b81e6cfd7","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"2cd3118e-fa3b-46ae-92cf-52376b5b0418","path":"sprites/Spr_ArcadeMachines/Spr_ArcadeMachines.yy",},},},"Disabled":false,"id":"a96d8bc8-e90c-4ca3-968c-81896b2a791c","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"9d524a22-1680-44db-a4c5-48622f94859e","path":"sprites/Spr_ArcadeMachines/Spr_ArcadeMachines.yy",},},},"Disabled":false,"id":"b8833cbd-f226-4e41-bb4f-95b68c298350","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 640,
+  "width": 320,
 }

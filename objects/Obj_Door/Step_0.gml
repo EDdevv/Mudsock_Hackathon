@@ -11,5 +11,5 @@
 		if place_meeting(x,y,Obj_Player) and (room == Room3){
 				DoorTrans(Room2);
 				Obj_Player.x = 896;
-				Obj_Player.y = 608;
+				Obj_Player.y = 576;
 		}
