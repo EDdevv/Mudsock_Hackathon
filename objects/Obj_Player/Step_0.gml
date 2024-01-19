@@ -25,3 +25,27 @@ if keyboard_check(vk_escape){
 	game_end()
 }
 
+if (keyboard_check_pressed(vk_space)){
+	instance_create_layer(Obj_Player.x,Obj_Player.y,"Bullets",Obj_Player_Bullet);
+}
+if (HP <= 0){
+	room_goto(Room4);
+	instance_destroy()
+}
+
+if (global.killcount = 1 and room = Room1){
+	global.room1Clear = true;
+	global.killcount = 0;
+}
+if (global.killcount = 2 and room = Room2){
+	global.room2Clear = true;
+	global.killcount = 0;
+}
+if (global.killcount = 3 and room = Room3){
+	global.room3Clear = true;
+	global.killcount = 0;
+}
+if (global.room1Clear == true and global.room2Clear == true and global.room3Clear == true){
+	room_goto(Room5);
+	global.room1Clear = false;
+}
